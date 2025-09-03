@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: telegram-report-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: API_ID
+        value: 22732923
+      - key: API_HASH
+        value: d5428680920f87cb1b78c328a7f6c6e7
+      - key: BOT_TOKEN
+        value: 8143252179:AAFMGene_1wUcLwWYse0qHLJPU2NO992iFo
