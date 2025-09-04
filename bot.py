@@ -23,10 +23,10 @@ bot_token = os.getenv('BOT_TOKEN', '8143252179:AAFMGene_1wUcLwWYse0qHLJPU2NO992i
 owner_id = int(os.getenv('OWNER_ID', '7798986445'))
 
 # تنظیمات دیتابیس
-DB_HOST = os.getenv('DB_HOST', 'localhost')
-DB_USER = os.getenv('DB_USER', 'root')
-DB_PASSWORD = os.getenv('DB_PASSWORD', '')
-DB_NAME = os.getenv('DB_NAME', 'telegram_report_bot')
+DB_HOST = os.getenv('DB_HOST', 'sprinthost.ru')
+DB_USER = os.getenv('DB_USER', 'f1166056_Mydata')
+DB_PASSWORD = os.getenv('DB_PASSWORD', 'Ferest464')
+DB_NAME = os.getenv('DB_NAME', 'f1166056_Mydata')
 
 # تنظیمات پیشرفته
 sleeping = int(os.getenv('SLEEP_TIME', '2'))
